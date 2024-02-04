@@ -28,7 +28,7 @@ echo "$mensaje" >> "/tmp/$fecha/saludos.log"
 crontab -e
 
 #Se indica en el primer parametro que se ejecute el script a cada 5 minutos
-"*/1 * * * * /mnt/c/Users/Elica/Documents/LJIM/Sopes1/Clase/actividad2.sh"
+"*/5 * * * * /mnt/c/Users/Elica/Documents/LJIM/Sopes1/Clase/actividad2.sh"
 
 # Reiniciar el servicio de cron para que tome los cambios
 service cron restart
